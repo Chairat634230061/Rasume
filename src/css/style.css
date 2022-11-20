@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+}
+
+body {
+    background: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.u-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.skill {
+    margin: 1em 0;
+    position: relative;
+    width: 22.5em;
+}
+
+.skill__type {
+    color: #fff;
+    font-weight: 300;
+    font-size: .8em;
+    letter-spacing: .145em;
+    text-transform: uppercase;
+    width: 5em;
+}
+
+.skill__outer-bar, .skill__inner-bar {
+    height: .75em;
+}
+
+.skill__outer-bar {
+    margin-top: 1em;
+    background: #333;
+}
+
+.skill__inner-bar {
+    animation: fillBar 1s forwards;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+}
+
+.skill__inner-bar--100 {
+    width: 100%;
+    background: #F8A518;
+}
+.skill__inner-bar--90 {
+    width: 90%;
+    background: #18A6F8;
+}
+.skill__inner-bar--80 {
+    width: 80%;
+    background: #F8DD18;
+}
+.skill__inner-bar--70 {
+    width: 80%;
+    background: #8718F8;
+}
+.skill__inner-bar--60 {
+    width: 90%;
+    background: #F818B5;
+}
+
+@keyframes fillBar {
+    to {
+        transform: scaleX(1);
+    }
+}
