@@ -48,7 +48,7 @@ body {
 
 .skill__outer-bar {
     margin-top: 1em;
-    background: #333;
+    background: rgb(246, 241, 241);
 }
 
 .skill__inner-bar {
@@ -57,24 +57,24 @@ body {
     transform-origin: 0 0;
 }
 
-.skill__inner-bar--100 {
-    width: 100%;
+.skill__inner-bar--50 {
+    width: 50%;
     background: #F8A518;
 }
-.skill__inner-bar--90 {
-    width: 90%;
+.skill__inner-bar--40 {
+    width: 40%;
     background: #18A6F8;
 }
-.skill__inner-bar--80 {
-    width: 80%;
+.skill__inner-bar--30 {
+    width: 30%;
     background: #F8DD18;
 }
-.skill__inner-bar--70 {
-    width: 80%;
+.skill__inner-bar--20 {
+    width: 20%;
     background: #8718F8;
 }
-.skill__inner-bar--60 {
-    width: 90%;
+.skill__inner-bar--10 {
+    width: 10%;
     background: #F818B5;
 }
 
